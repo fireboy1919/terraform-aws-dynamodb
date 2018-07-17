@@ -1,5 +1,5 @@
 module "dynamodb_label" {
-  source     = "git::https://github.com/cloudposse/terraform-terraform-label.git?ref=tags/0.1.2"
+  source     = "git::https://github.com/fireboy1919/terraform-terraform-label.git?ref=tags/0.1.2"
   namespace  = "${var.namespace}"
   stage      = "${var.stage}"
   name       = "${var.name}"
